@@ -22,6 +22,7 @@ module.exports = {
   plugins: [...fabric.default.plugins, 'react-hooks'],
   parserOptions: {
     ...fabric.default.parserOptions,
-    project: './packages/**/tsconfig.json',
+    project: true,
+    tsconfigRootDir: __dirname,
   },
 };

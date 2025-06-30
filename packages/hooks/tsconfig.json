@@ -4,7 +4,11 @@
     "rootDir": "src",
     "outDir": "lib",
     "composite": true,
-    "declaration": true
+    "declaration": true,
+    "baseUrl": "src",
+    "paths": {
+      "ahooks": ["./index.ts"]
+    }
   },
   "include": ["src"]
 }
