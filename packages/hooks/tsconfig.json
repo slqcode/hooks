@@ -5,9 +5,9 @@
     "outDir": "lib",
     "composite": true,
     "declaration": true,
-    "baseUrl": "src",
+    "baseUrl": ".",
     "paths": {
-      "ahooks": ["./index.ts"]
+      "ahooks": ["src/index.ts"]
     }
   },
   "include": ["src"]
